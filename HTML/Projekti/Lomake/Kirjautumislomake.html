@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Yhteydenotto</title>
+    <link rel="stylesheet" href="">
+    <script src="">
+    </script>
+  </head>
+  <body>
+    <div class="lomake">
+    <form class="tiedot" action="kiitos.html" method="post" onsubmit="return tarkasta" onreset="return tyhjenna">
+      <h1>Ota yhteyttä</h1>
+      <!--Nimi ja sähköposti -->
+      <table>
+        <tr>
+          <td>Anna nimi:</td>
+          <td class="nimi"><input type="text" name="nimi" value=""></td>
+        </tr>
+        <tr>
+          <td>Anna sähköposti:</td>
+          <td class="sposti"><input type="text" name="sposti" value=""></td>
+        </tr>
+      </table>
+    <!--Radionamiskat -->
+    <p>Mikä on fiilis?</p>
+    <p>
+    <input type="radio" name="ärsy" value="ärsyttää" />
+    Ärsyttää.<br />
+    <input type="radio" name="normi" value="Normi" />
+    Normi. <br />
+    <input type="radio" name="virtaa" value="kylä" />
+    Virtaa on ku pienessä kylässä.
+    </p>
+    <!--- Tekstilomake -->
+    <table>
+      <tr>
+        <td colspan = "2">Kerro huolesi. Otamme yhteyttä.</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="tiedot"><textarea name="yhteys" rows="8" cols="50"></textarea></td>
+      </tr>
+    </table>
+    <!--Checkbox alue -->
+    <p>Mitä teet mieluiten viikonloppuisin? </p>
+    <p>
+      <input type="checkbox" name="boksi" value="nukun">Nukun<br/>
+      <input type="checkbox" name="boksi" value="opiskelu">Opiskelen<br/>
+      <input type="checkbox" name="boksi" value="bailaan">Bailaan<br/>
+      <input type="checkbox" name="boksi" value="harrastan">Harrastan<br/>
+    </p>
+      <!--Vetolaatikko -->
+    <label for="liikkuminen">Miten kuljet?:</label>
+    <select id="liikkum" name="liikun">
+      <option value="jalka">Jalan</option>
+      <option value="julkinen">Julkisilla</option>
+      <option value="pyörä"">Pyörällä</option>
+      <option value="auto">Autolla</option>
+    </select>
+    <!--- Lähetä ja tarkasta nappulat -->
+    <p>
+      <input type="submit" name="submit" value="Tarkasta lomake">
+      <input type="reset" name="reset" value="Tyhjennä lomake">
+    </p>
+
+
+    </form>
+  </div>
+  </body>
+</html>
