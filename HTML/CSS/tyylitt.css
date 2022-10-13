@@ -1,0 +1,76 @@
+header
+{
+height: 100px;
+background: #EDDDA1;
+}
+h1
+{
+color: #FFF;
+padding: 22px 0 0 20px;
+}
+nav
+{
+width: 400px;
+height: 20px;
+background: #D6C136;
+margin-left: 200px;
+}
+nav ul
+{
+margin: 0 0 0 -10px;
+}
+nav li
+{
+float: left;
+list-style-type: none;
+padding: 0 10px;
+}
+section
+{
+width: 400px;
+background: #B5C0EB;
+margin-top; -20px;
+}
+h2
+{
+color: #000;
+padding: 10 px 0 0 10px;
+}
+article
+{
+width: 400px;
+background: #B5C0EB;
+}
+article p
+{
+padding: 10px;
+}
+aside
+{
+width: 200px;
+height: 502px;
+background: #8592ED;
+float: right;
+margin-top: -1px;
+}
+h3
+{
+color: #fff;
+padding: 10px 0 0 10px;
+}
+aside article
+{
+width: 200px;
+background: #8592ED;
+color: #fff;
+}
+footer
+{
+height: 40px;
+background: #EDDDA1;
+margin-top: -16px;
+}
+footer p
+{
+padding: 10px 0 0 10px;
+}

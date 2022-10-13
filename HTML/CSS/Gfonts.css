@@ -1,41 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=BhuTuka+Expanded+One&family=Diplomata&family=Great+Vibes&family=Monofett&family=Monoton&family=Press+Start+2P&family=Rock+Salt&family=Rubik+Burned&family=Shadows+Into+Light&family=Slackey&family=Tapestry&display=swap');
 #nimi {
   color: green;
+  font-family: 'Shadows Into Light', cursive;
+
 }
 
 #h2 {
-  font-style:italic;
+  font-family: 'Monofett', cursive;
   color:red;
+  font-size: 25px;
 }
+
 #h22 {
 
 }
+#yy, #kaa, #koo, #nee, #vii, #kuu, #see, #kas, #ys, #kym {
+  display: inline;
+}
+#yy{
+  font-size: 10px;
+  color: #DC143C;
+
+}
+#kaa {
+  font-size: 20px;
+  color: #006400;
+}
+#koo {
+  font-size: 30px;
+  color: #8B008B;
+}
+#nee {
+  font-size: 40px;
+  color: #FFD700;
+}
+#vii{
+  font-size: 50px;
+  color: #FF69B4;
+}
+#kuu {
+  font-size: 45px;
+  color: #0000CD;
+}
+#see{
+  font-size: 40px;
+  color: #FF4500;
+}
+#kas {
+  font-size: 35px;
+  color: #800080;
+}
+#ys {
+  font-size: 30px;
+  color: #FFFF00;
+}
+#kym {
+  font-size: 25px;
+  color: #00FF00;
+}
+
 #p22 {
 
-}
-#h222 {
+  font-family: 'Shadows Into Light', cursive;
 
-}
-#p222 {
-
-}
-#h222 {
-
-}
-#p2222 {
-
-}
-#h2222 {
-
-}
-#p22222 {
-
-}
-#h3 {
 
 }
 #p3 {
-
+  font-size: 25px;
 }
-#h4p {
+#h222 {
 
+  font-family: 'Great Vibes', cursive;
+}
+#p222 {
+ font-family: 'Monoton', cursive;
+ font-size: 15px;
+}
+#h222 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 17px;
+}
+#p2222 {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 11px;
+}
+#h2222 {
+  font-family: 'Tapestry', cursive;
+  font-size: 19px;
+}
+#p22222 {
+  font-family: 'Monofett', cursive;
+  font-size: 20px;
+}
+#h3 {
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-size: 9px;
+}
+
+#h4p {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 5px;
 }
