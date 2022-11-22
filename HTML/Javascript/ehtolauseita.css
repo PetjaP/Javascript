@@ -1,0 +1,23 @@
+.ehto
+{
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  margin-right: 20px;
+  float:left;
+}
+#yksi{
+  background-color: #99ff99;
+}
+#kaksi{
+  background-color: #ff99ff;
+}
+#kolme{
+    background-color: #66ccff;
+}
+#nelja{
+    background-color: #ff9980;
+}
+#viisi{
+    background-color: #ffb3ff;
+}
