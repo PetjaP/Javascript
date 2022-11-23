@@ -1,0 +1,57 @@
+/* Alueiden muotoilu */
+body
+{
+  background-color: #4d4d4d;
+}
+section
+{
+  margin: 50px;
+  align: center;
+  border-radius: 5px;
+  border-style: solid;
+}
+/* Tekstin muotoilu */
+p, h1, label, button
+{
+  border-radius: 5px;
+  font-family: cursive;
+}
+/* Ensimmäisen tehtävän taustaväri */
+#yks
+{
+  background-color: #b3ffb3;
+  padding: 20px;
+}
+/* Toisen tehtävän taustaväri */
+#kaks
+{
+  background-color: #ffe6cc;
+  padding: 20px;
+}
+/* Kolmannen tehtävän taustaväri */
+#kol
+{
+  background-color: #ffccff;
+  padding: 20px;
+}
+/* Neljännen tehtävän taustaväri */
+#nel
+{
+  background-color: #b3e0ff;
+  padding: 20px;
+}
+/* Viidennen tehtävän taustaväri */
+#viis
+{
+  background-color: #ffd6cc;
+  padding: 20px;
+}
+
+/* Määritetään sectioiden tekstin keskitys*/
+#yks , #kaks , #kol , #nel, #viis
+{
+  text-align: center;
+  border-radius: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+}

@@ -1,0 +1,60 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ehtolauseita 2</title>
+    <link rel="stylesheet" href="ehtolauseita2.css">
+    <script type="text/javascript" src="ehtolauseita2.js">
+
+    </script>
+  </head>
+<body>
+  <!-- Ensimmäisen tehtävän alue -->
+  <section id ="yks">
+    <h1>Tehtävä 1</h1>
+      <p>Anna luku, niin ohjelma tarkistaa onko se positiivinen vai negatiivinen</p>
+      <label for="luku">Anna luku: </label><input type="text" id="luku" value="">
+      <button type="button" name="button" onclick="tarkistaLuku()">Tarkista</button>
+  <p id="s1"></p>
+  </section>
+<!-- Toisen tehtävän alue -->
+  <section id ="kaks">
+    <h1>Tehtävä 2</h1>
+      <p>Anna viikonpäivän numero, niin ohjelma kertoo, että mikä viikonpäivä se on.</p>
+      <label for="viikonpäivä">Anna viikonpäivän numero: </label><input type="text" id="vkpv" value="">
+      <button type="button" name="button" onclick="muutaSanaksi()">Kerro viikonpäivä</button>
+      <p id="s2"></p>
+    </section>
+<!-- Kolmannen tehtävän alue -->
+    <section id ="kol">
+
+    <h1>Tehtävä 3</h1>
+      <p>Anna vuosi, niin ohjelma kertoo, että onko se karkausvuosi</p>
+      <label for="vuosi">Anna vuosi: </label><input type="text" id="vuosi" value="">
+      <button type="button" name="button" onclick="tarkistaVuosi()">Karkausvuosi?</button>
+      <p id="s3"></p>
+    </section>
+<!-- Neljännen tehtävän alue -->
+    <section id ="nel">
+
+    <h1>Tehtävä 4</h1>
+      <p>Anna 5 lukua. Ohjelma laskee summan ja keskiarvon</p>
+      <label for="luku1">Anna luku 1: </label><input type="text" id="luku1" value=""><br/>
+      <label for="luku2">Anna luku 2: </label><input type="text" id="luku2" value=""><br/>
+      <label for="luku3">Anna luku 3: </label><input type="text" id="luku3" value=""><br/>
+      <label for="luku4">Anna luku 4: </label><input type="text" id="luku4" value=""><br/>
+      <label for="luku5">Anna luku 5: </label><input type="text" id="luku5" value=""><br/><br>
+      <button type="button" name="button" onclick="laskeKeskiArvo()">Laske summa ja keskiarvo</button>
+      <p id="s4"></p>
+    </section>
+<!-- Viidennen tehtävän alue -->
+    <section id ="viis">
+
+    <h1>Tehtävä 5</h1>
+      <p>Anna luku. Ohjelma tekee siitä kympin kertotaulun.</p>
+      <label for="luku">Anna kerrottava luku: </label><input type="text" id="kerto" value="">
+      <button type="button" name="button" onclick="teeKertoTaulu()">Tee kertotaulu</button>
+    <p id="s5"></p>
+
+    </section>
+  </body>
+</html>
