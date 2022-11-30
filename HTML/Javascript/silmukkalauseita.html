@@ -1,0 +1,120 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. viikon ekat tehtävät!</title>
+    <link rel="stylesheet" href="silmukkalauseita.css">
+    <script type="text/javascript" src="silmukkalauseita.js"></script>
+
+  </head>
+  <body>
+<!-- Tehtävä 1 sektio. -->
+  <section id="yks">
+    <h1>Tehtävä 1</h1>
+    <form class="" action="index.html" method="post">
+      <p>Anna tähän parillinen luku, niin ohjelma tulostaa kaikki parilliset luvut antamasi lukuun asti.<br> ( Poislukien 0 )<input type="text" id="pluku" value=""></p>
+    <button type="button" name="button" onclick="näytäParilliset()">Näytä luvut</button>
+    <div id="parilliset"></div>
+    </form>
+  </section>
+
+<!-- Tehtävä 2 sektio. -->
+  <section id="kaks">
+    <h1>Tehtävä 2</h1>
+    <p>Tämä ohjelma tässä muuttaa antamasi sanan salasanaksi laittaen kirjaimen Ö
+      jokaisen kirjaimen väliin.</p>
+    <form class="" action="index.html" method="post">
+      <p>Anna sana: <input type="text" id="msana" value=""></p>
+      <button type="button" name="button" onclick="muutaSana()">Luo salasana!</button>
+    <div id="salas"></div>
+    </form>
+  </section>
+
+<!-- Tehtävä 3 sektio. -->
+  <section id="kol">
+    <h1>Tehtävä 3</h1>
+      <p>Tämä ohjelma tarkistaa onko kirjoittamassasi sanassa "ö" kirjainta!</p>
+      <p>Anna sana: <input type="text" id="asana" value=""></p>
+    <button type="button" name="button" onclick="onkoÖ()">Onko sanassa ö?</button>
+    <div id="vastaus"></div>
+  </section>
+
+<!-- Tehtävä 4 sektio. -->
+  <section id="nel">
+    <h1>Tehtävä 4</h1>
+      <form class="" action="index.html" method="post">
+        <p>Anna luku, niin ohjelma laskee luvun kertoman (esim: 4 -> 4*3*2*1 = 24): <input type="text" id="kertoma" value=""></p>
+        <button type="button" name="button" onclick="kertomaLaske()">Laske kertoma</button>
+      <div id="annakertoma"></div>
+    </form>
+  </section>
+
+<!-- Tehtävä 5 sektio. -->
+  <section id="vii">
+    <h1>Tehtävä 5</h1>
+      <p>Tässä ohjelma, joka tulostaa näytölle luvut 1-100, kuitenkin siten, että jos luku on 3:lla
+       jaollinen, tulostetaan Hip ja jos viidellä jaollinen tulostetaan Heijaa, mutta
+       jos sekä viidellä että kolmella jaollinen, tulostetaan HipHeijaa</p>
+    <button type="button" id="button" onclick="hipHeijaa()">Hip heijaa?</button>
+    <div id="luvut"></div>
+    </section>
+
+<!-- Tehtävä 6 sektio. -->
+  <section id="kuu">
+    <h1>Tehtävä 6</h1>
+    <p>Paina nappia niin ohjelma antaa 10 ensimmäistä numeroa!</p>
+    <button type="button" id="button" onclick="ekatKymmenen()">10 Ensimmäistä</button>
+  <div id="10lukua"></div>
+  </section>
+
+<!-- Tehtävä 7 sektio. -->
+  <section id="sei">
+   <h1>Tehtävä 7</h1>
+    <p>Paina nappia niin ohjelma laskee 10 ensimmäistä numeroa yhteen!</p>
+  <button type="button" id="button" onclick="yhteen()">Laske yhteen</button>
+  <div id="luvutYhteen"></div>
+  </section>
+
+<!-- Tehtävä 8 sektio. -->
+  <section id="kas">
+    <h1>Tehtävä 8</h1>
+      <p>Tämä ohjelma laskee annettujen lukujen potenssin</p>
+      <p>Korotettava luku: <input type="text" id="kor" value=""> </p>
+      <p>Potenssi luku: <input type="text" id="pot" value=""> </p>
+    <button type="button" id="button" onclick="koroPot()">Laske</button>
+    <div id="potenssi"></div>
+  </section>
+
+<!-- Tehtävä 9 sektio. -->
+  <section id="ys">
+  <h1>Tehtävä 9</h1>
+      <p>Tämä ohjelma etsii luvuista suurimman ja pienimmän</p>
+      <p>1. luku: <input type="text" id="taulukko[0]" value=""> </p>
+      <p>2. luku: <input type="text" id="taulukko[1]" value=""> </p>
+      <p>3. luku: <input type="text" id="taulukko[2]" value=""> </p>
+      <p>4. luku: <input type="text" id="taulukko[3]" value=""> </p>
+      <p>5. luku: <input type="text" id="taulukko[4]" value=""> </p>
+    <button type="button" id="button" onclick="suurinPienin()">Etsi pienin ja suurin</button>
+    <div id="suuripieni"></div>
+  </section>
+
+<!-- Tehtävä 10 sektio. -->
+  <section id="kymp">
+  <h1>Tehtävä 10</h1>
+    <p>Tällä ohjelmalla voit muokata antamastasi sanasta salasanan!</p>
+    <p>Anna muokattava sana:  <input type="text" id="salasana" value="">
+  <button type="button" id="button" onclick="arvoSalas()">Muunna salasanaksi</button>
+  <div id="uusisalas"></div>
+  </section>
+
+<!-- Tehtävä 11 sektio. -->
+  <section id="yytoo">
+  <h1>Tehtävä 11</h1>
+    <p>Anna kaksi numeroa. Ohjelma tulostaa tulostaa numeroiden väliltä parilliset ja parittomat luvut sekä niiden summat.</p>
+    <p>Anna pienempi numero:  <input type="text" id="pnro" value=""></p>
+    <p>Anna isompi numero:  <input type="text" id="tnro" value=""></p>
+  <button type="button" id="button" onclick="näytäLuvut()">Näytä luvut sekä summat</button>
+  <div id="parillitonpari"></div>
+  </section>
+</body>
+</html>

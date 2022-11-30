@@ -1,0 +1,106 @@
+/* Sektioiden sijainnin määrittely */
+section
+{
+  margin: 25 0 10px 0;
+  float: left;
+}
+/* Nappien, otsikoiden, tekstin muotoilu */
+p, h1, button
+{
+  margin-left: 20px;
+  border-radius: 5px;
+  font-family: cursive;
+}
+/* Taustaväri */
+body
+{
+ background-color: #3d3d5c;
+}
+/* Ykkös sektion muotoilu */
+#yks
+{
+  background-color: #b3ffb3;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Kakkos sektion muotoilu */
+#kaks
+{
+  background-color: #ffffb3;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Kolmos sektion muotoilu */
+#kol
+{
+  background-color: #b3e6ff;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Nelos sektion muotoilu */
+#nel
+{
+  background-color: #ffc2b3;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Vitos sektion muotoilu */
+#vii
+{
+  background-color: #ffb3ff;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Kutos sektion muotoilu */
+#kuu
+{
+  background-color: #b3b3ff;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Seiska sektion muotoilu */
+#sei
+{
+  background-color: #ffd9b3;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Kasi sektion muotoilu*/
+#kas
+{
+  background-color: #ffffb3;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Ysi sektion muotoilu */
+#ys
+{
+  background-color: #b3ffff;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Kymppi sektion muotoilu */
+#kymp
+{
+  background-color: #e0e0eb;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
+/* Yhdennentoista sektion muotoilu */
+#yytoo
+{
+  background-color: #b3f0ff;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+}
