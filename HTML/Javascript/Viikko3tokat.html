@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="Viikko3tokat.js"></script>
+    <link rel="stylesheet" href="Viikko3tokat.css">
+    <title>Viikko3tokat!</title>
+  </head>
+  <body>
+    <!-- Scrabble pelin osio -->
+  <article class='loota' id='yks'>
+    <h1>Tehtävä 1</h1>
+    <p>Ohjelma, jolle voit syöttää sanan ja ohjelma laskee pisteet perustuen Scrabble peliin seuraavasti:</p>
+    <ul>
+      <li>A, E, I, N, S, T = 1p</li>
+      <li>O, Ä, K, L = 2p</li>
+      <li>U, M = 3p</li>
+      <li>Y, H, J, P, R, V = 4p</li>
+      <li>Ö, D = 7p</li>
+      <li>B, F, G = 8p</li>
+      <li>C = 10p</li>
+      <li>loput kirjaimet = 12p</li>
+    </ul>
+    <form class="" action="index.html" method="post">
+      <p>Anna sana, jonka pisteet lasketaan: <input type="text" id="sanat" value=""></p>
+      <button type="button" name="button" onclick="laskePisteet()">Laske kirjainpisteet</button>
+      <div id="tscrabble"></div>
+    </form>
+  </article>
+  <!-- Lottonumeroiden arvonnan osio -->
+  <article class='loota' id='kaks'>
+  <h1>Tehtävä 2</h1>
+  <p>Ohjelma, joka arpoo lottonumerot (7 kpl)</p>
+  <button type="button" name="button" onclick="arvoLotto()">Arvo numerot</button>
+  <p></p>
+  <div id="tlotto"></div>
+</article>
+  <!-- 2-D taulukon muuttaminen taulukon muotoon osio -->
+  <article class='loota' id='kol'>
+  <h1>Tehtävä 3</h1>
+  <p>Ohjelma joka muuntaa javascriptissä määritetyn 2-D taulukon taulukkomuotoon.</p>
+  <p>Esimerkiksi [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]</p>
+  <form class="" action="index.html" method="post">
+
+  <button type="button" name="button" onclick="muunnaTaulukoksi()">Muunna taulukoksi</button>
+  <div id="ttaulu"></div>
+  </form>
+</article>
+<!-- Korttien arvonnan osio -->
+<article class='loota' id='nel'>
+  <h1>Tehtävä 4</h1>
+    <p>Ohjelma, joka tekee taulukon kaikista korttipakan korteista (2 sisäkkäistä silmukkaa) ja sen jälkeen sekoittaa "pakan" ja arpoo 5 korttia sieltä</p>
+  <button type="button" name="button" onclick="arvoKortit()">Arvo 5 korttia</button>
+<div id='apakka'></div>
+</article>
+</html>

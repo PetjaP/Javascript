@@ -1,0 +1,42 @@
+/* Taustaväri */
+body
+{
+  background-color: #4da6ff;
+  padding: 25px;
+
+}
+/* Tulostettavan taulukon muotoilu */
+td{
+  width: 20px;
+}
+/* Tekstin ja nappien fontti */
+p, h1, button, li
+{
+font-family: cursive;
+}
+/* Laatikoiden muotoilun määrittely */
+.loota
+{
+  width: 700px;
+  padding: 15px;
+  margin: 25px;
+  border-radius: 20px;
+  border-style: solid;
+
+}
+/* Ykköslaatikon taustaväri */
+#yks{
+  background-color: #b3ffb3;
+}
+/* Kakkoslaatikon taustaväri */
+#kaks{
+  background-color: #ffad99;
+}
+/* Kolmoslaatikon taustaväri */
+#kol{
+    background-color: #b3d1ff;
+}
+/* Neloslaatikon taustaväri */
+#nel{
+    background-color: #ffbf80;
+}
