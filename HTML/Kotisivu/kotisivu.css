@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&display=swap');
+/* Taustakuvan ja koko alueen sijainnin määrittely*/
+body
+{
+  margin: 50px;
+  background-color: #b3ffff;
+}
+/* Otsikon ja alapalkin muotoilu */
+header, footer
+{
+  background-color: #ffcc80;
+  padding: 10px;
+  font-family: 'Acme', sans-serif;
+}
+/* Otsikon muotoilu */
+header h1
+{
+  color: #000000;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+/* navigointipalkin muotoilu */
+nav
+{
+  background-color: #ff9980;
+  position: center;
+  width: 500px;
+
+  text-align: center;
+  padding: 5px;
+  margin-left: 300px;
+  margin-bottom: -10px;
+  font-family: 'Acme', sans-serif;
+}
+/* Navigointipalkin tekstin määrittely */
+nav a
+{
+  padding: 10px;
+}
+/* Vasemman puolen määrittely */
+section
+{
+  background-color: #ff9980;
+  width: 700px;
+  font-family: 'Acme', sans-serif;
+  padding: 15px 25px 50px 75px;
+
+}
+/* Vasemman puolen tekstin määrittely */
+section p
+{
+  padding: 10px;
+  margin: 15px;
+}
+/* Oikea sivupalkki määrittely */
+aside
+{
+  background-color: #ff9980;
+  float: right;
+  font-family: 'Acme', sans-serif;
+  width: 375px;
+  margin-left: 50px;
+}
+/* Vasemman tekstialueen ja oikean puolen sivupalkin määrittely */
+aside, section
+{
+  padding-left: 20px;
+}
+/* Kuvan sijainnin ja koon määrittely */
+img
+{
+  height: 300px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+/* Lähteen sijainnin määrittely */
+.source
+{
+  text-align: left;
+  margin-right: 10px;
+}
+/* Kuvatekstin määrittely */
+figure, figcaption {
+  text-align: center;
+}
