@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2022-12-13T15:56:19.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0" etag="sRRj5VB9hHpLxOWBZ5a9" version="20.6.2" type="github">
+  <diagram id="T6Ged8Q6s0yfEfbPDslI" name="Sivu-1">
+    <mxGraphModel dx="742" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="vnEnf3W1fV4Ne-Xph7R5-1" target="vnEnf3W1fV4Ne-Xph7R5-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Aloitus&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="20" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="vnEnf3W1fV4Ne-Xph7R5-2" target="vnEnf3W1fV4Ne-Xph7R5-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-2" value="Lue 1.luku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="250" y="110" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="vnEnf3W1fV4Ne-Xph7R5-4" target="vnEnf3W1fV4Ne-Xph7R5-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-4" value="Lue 2.luku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="250" y="210" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="vnEnf3W1fV4Ne-Xph7R5-6" target="vnEnf3W1fV4Ne-Xph7R5-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-6" value="Laske yhteen&lt;br&gt;( Summaa )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="250" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="vnEnf3W1fV4Ne-Xph7R5-8" target="vnEnf3W1fV4Ne-Xph7R5-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-8" value="Tulosta summa" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="245" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vnEnf3W1fV4Ne-Xph7R5-10" value="Loppu" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="245" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
